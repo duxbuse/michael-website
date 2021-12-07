@@ -1,6 +1,8 @@
 # HUGO
 /public/
-/resources/_gen/
+
+#This seems to break hugo and requires some special extended version when using a theme that uses scss
+/resources/_gen/ 
 
 hugo.exe
 hugo.linux
